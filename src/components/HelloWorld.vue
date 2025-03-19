@@ -5,7 +5,7 @@
   <!-- Estructura HTML -->
   <div id="particles-js"></div> <!-- Este es el contenedor para las partículas -->
 
-  <header>
+  <header> 
     <img src="../assets/flor.png" alt="Vue Logo" />
     <div>
       <h1>Hotel Flor del Saber</h1>
