@@ -16,6 +16,7 @@
     </form>
   </header>
 
+
   <nav>
     <a href="registros_clientes.php">Registrar Cliente</a>
     <a href="registros_habitaciones.php">Registrar Habitaciones</a>
@@ -176,7 +177,7 @@ footer p {
   background-color: #e67e22;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
   text-decoration: none;
 }
