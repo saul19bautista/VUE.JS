@@ -15,7 +15,7 @@
       <button class="logout-button" type="submit" name="logout">Cerrar sesión</button>
     </form>
   </header>
-
+  
 
   <nav>
     <a href="registros_clientes.php">Registrar Cliente</a>
