@@ -5,6 +5,7 @@
   <!-- Estructura HTML -->
   <div id="particles-js"></div> <!-- Este es el contenedor para las partículas -->
 
+<<<<<<< Updated upstream
   <header> 
     <img src="../assets/flor.png" alt="Vue Logo" />
     <div>
@@ -33,6 +34,9 @@
       <h1>Bienvenido a Hotel Flor del Saber donde el privilegio eres tú</h1>
     </div>
 
+=======
+  <div class="container">
+>>>>>>> Stashed changes
     <div class="section">
       <h2>Descubre Nuestro Paraíso</h2>
       <p>Explora nuestras comodidades de lujo y vive una experiencia única en cada rincón de nuestro hotel.</p>
