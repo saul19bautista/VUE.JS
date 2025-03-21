@@ -1,11 +1,11 @@
 <script setup>
   // Se importa el componente HelloWorld desde el archivo correspondiente
-  import Principal from './components/Principal.vue'
+  import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <!-- Se usa el componente HelloWorld y se le pasa una propiedad "msg" con el valor "Vite + Vue" -->
-  <Principal msg="Vite + Vue" />
+  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>

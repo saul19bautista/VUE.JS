@@ -3,24 +3,19 @@ import Header from './Header.vue';
 import Footer from './Footer.vue';
 import Navbar from './Navbar.vue';
 import HeroSection from './HeroSection.vue';
-
+import Bootstrap from './Bootstrap.vue';
 </script>
 
 <template>
 
 <div id="particles-js"></div> <!-- Este es el contenedor para las partículas -->
 
-  <Header>
-    <!-- Se usa el componente Header -->
-  </Header>
+  <Header /> <!-- Se usa el componente Header -->
 
-<Navbar>
+<Navbar/>
 
-</Navbar>
+<HeroSection />
 
-<HeroSection>
-
-</HeroSection>
   <!-- Estructura HTML -->
 
   <div class="container">
@@ -30,11 +25,10 @@ import HeroSection from './HeroSection.vue';
     </div>
   </div>
 
-  <Footer>
-    <!-- Se usa el componente Footer -->
-  </Footer>
 
+<Bootstrap/>
 
+<Footer/> <!-- Se usa el componente Footer -->
 </template>
 
 <style scoped>
