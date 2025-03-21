@@ -6,7 +6,7 @@
   <div id="particles-js"></div> <!-- Este es el contenedor para las partículas -->
 
   <header>
-    <img src="../assets/flor.png" alt="Vue Logo" />
+    <img src="../assets/flor.jpg" alt="Vue Logo" />
     <div>
       <h1>Hotel Flor del Saber</h1>
       <p>Tu destino de ensueño</p>
