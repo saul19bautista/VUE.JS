@@ -1,8 +1,11 @@
 <script setup>
 import Header from './Header.vue';
 import Footer from './Footer.vue';
+import Navbar from './Navbar.vue';
 import HeroSection from './HeroSection.vue';
+import Bootstrap from './Bootstrap.vue';
 </script>
+
 
 <template>
 
@@ -23,9 +26,9 @@ import HeroSection from './HeroSection.vue';
     </div>
   </div>
 
-  <Footer/> <!-- Se usa el componente Footer -->
-
 <Bootstrap/>
+
+<Footer/> <!-- Se usa el componente Footer -->
 </template>
 
 <style scoped>
