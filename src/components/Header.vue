@@ -1,6 +1,6 @@
 <template>
-  <header>
-    <img src="../assets/flor.jpg" alt="Vue Logo" />
+  <header> 
+    <img src="../assets/flor.png" alt="Vue Logo" />
     <div>
       <h1>Hotel Flor del Saber</h1>
       <p>Tu destino de ensueño</p>
