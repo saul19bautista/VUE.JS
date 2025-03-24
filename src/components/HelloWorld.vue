@@ -1,5 +1,5 @@
 <script setup>
-import Header from './Header.vue';
+import Header from './header.vue';
 import Footer from './Footer.vue';
 import Navbar from './Navbar.vue';
 import HeroSection from './HeroSection.vue';
