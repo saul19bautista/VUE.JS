@@ -1,43 +1,34 @@
 <script setup>
+import Header from './Header.vue';
+import Footer from './Footer.vue';
+import Navbar from './Navbar.vue';
+import HeroSection from './HeroSection.vue';
+import Bootstrap from './Bootstrap.vue';
 </script>
 
+
 <template>
+
+<div id="particles-js"></div> <!-- Este es el contenedor para las partículas -->
+
+  <Header /> <!-- Se usa el componente Header -->
+
+<Navbar/>
+
+<HeroSection />
+
   <!-- Estructura HTML -->
-  <div id="particles-js"></div> <!-- Este es el contenedor para las partículas -->
-
-  <header> 
-    <img src="../assets/flor.png" alt="Vue Logo" />
-    <div>
-      <h1>Hotel Flor del Saber</h1>
-      <p>Tu destino de ensueño</p>
-    </div>
-    <form action="login.html" method="POST">
-      <button class="logout-button" type="submit" name="logout">Cerrar sesión</button>
-    </form>
-  </header>
-
-
-  <nav>
-    <a href="registros_clientes.php">Registrar Cliente</a>
-    <a href="registros_habitaciones.php">Registrar Habitaciones</a>
-    <a href="registro_checkin.php">Check-In</a>
-    <a href="registro_checkout.php">Check-Out</a>
-    <a href="registros_empleados.php">Empleados</a>
-    <a href="registro_facturas.php">Facturas</a>
-    <a href="cliente_reservaciones.php">Reservaciones</a>
-    <a href="habitaciones.php">Habitaciones</a>
-  </nav>
 
   <div class="container">
-    <div class="hero-image">
-      <h1>Bienvenido a Hotel Flor del Saber donde el privilegio eres tú</h1>
-    </div>
-
     <div class="section">
       <h2>Descubre Nuestro Paraíso</h2>
       <p>Explora nuestras comodidades de lujo y vive una experiencia única en cada rincón de nuestro hotel.</p>
     </div>
   </div>
+
+<Bootstrap/>
+
+<Footer/> <!-- Se usa el componente Footer -->
 </template>
 
 <style scoped>
@@ -91,26 +82,7 @@ header p {
   font-weight: 300;
 }
 
-nav {
-  background-color: #34495e;
-  padding: 15px 0;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
-nav a {
-  color: #ecf0f1;
-  text-decoration: none;
-  padding: 12px 20px;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-}
-
-nav a:hover {
-  background-color: #e67e22;
-  color: #fff;
-  border-radius: 5px;
-}
 
 .container {
   max-width: 1200px;
