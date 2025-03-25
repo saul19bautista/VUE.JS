@@ -10,26 +10,30 @@ import Bootstrap from './Bootstrap.vue';
 
 <div id="particles-js"></div> <!-- Este es el contenedor para las partículas -->
 
-  <Header /> <!-- Se usa el componente Header -->
-
+  <Header />
+   <!-- Se usa el componente Header -->
+  <template>
+  
+    <header>      
+    </header>
+  
+  </template>
 <Navbar/>
 
 <HeroSection />
-
   <!-- Estructura HTML -->
-
   <div class="container">
     <div class="section">
       <h2>Descubre Nuestro Paraíso</h2>
       <p>Explora nuestras comodidades de lujo y vive una experiencia única en cada rincón de nuestro hotel.</p>
     </div>
   </div>
-
-
 <Bootstrap/>
 
 <Footer/> <!-- Se usa el componente Footer -->
 </template>
+
+
 
 <style scoped>
 /* Estilo CSS */ 
